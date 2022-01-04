@@ -30,8 +30,8 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(2000);
-			if(i==78){
-				$("p:nth-child(77)").fadeOut('slow').promise().done(function () {
+			if(i==85){
+				$("p:nth-child(84)").fadeOut('slow').promise().done(function () {
        		 		$('body').addClass('peach');
 					$('#play').fadeIn('slow');
 					$('.song').remove(0);
